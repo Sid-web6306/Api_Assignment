@@ -11,11 +11,16 @@
 
 ### Operations
 * Creating and Instering a Question Information into Database
-![Create and Insert Person Info](/images/Create.png)
+![Create and Insert Person Info](/images/create.png)
+![Create and Insert Person Info](/images/create1.png)
+![Create and Insert Person Info](/images/create2.png)
+![Create and Insert Person Info](/images/create3.png)
+![Create and Insert Person Info](/images/create4.png)
 * Fetching Questions Info API
-![ALL DATA of Person API](/images/Allpersons.png)
-* Search Person Information By its name
-![Search Person name](/images/searchpersonbyname.png)
+![ALL DATA of Person API](/images/fetchallquestions.png)
+* Search Person Information By its Question_type
+![Search Person name](/images/searchquestiontypemul.png)
+![Search Person name](/images/searchquestiontypesingle.png)
 
 ### Start
   nodemon server.js
