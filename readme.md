@@ -19,8 +19,8 @@
 * Fetching Questions Info API
 ![ALL DATA of Person API](/images/fetchallquestions.png)
 * Search Person Information By its Question_type
-![Search Person name](/images/searchquestiontypemul.png)
-![Search Person name](/images/searchquestiontypesingle.png)
+![Search Person name](/images/searchbyquestiontypemul.png)
+![Search Person name](/images/searchbyquestiontypesingle.png)
 
 ### Start
   nodemon server.js
