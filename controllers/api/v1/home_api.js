@@ -57,8 +57,10 @@ module.exports.getQuestions = async (req,res)=>{
 }
 module.exports.getFilteredQuestion = async (req,res)=>{
     try{
-        let id = req.query.id;
-        const questions = await Question.find({_id:{$in:id}});
+        // let id = req.query.id;
+        let question_type = req.query.question_type;
+        console.log(question_type);
+        const questions = await Question.find({question_type:{$in:question_type}});
         return res.status(200).json(questions);
 
     }catch(err){
